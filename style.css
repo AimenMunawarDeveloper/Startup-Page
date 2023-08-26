@@ -1,0 +1,44 @@
+body,
+html {
+  width: 100%;/*to make sure body,html are 100% of waht we see on screen*/
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  /*from perfect background image in css from css tricks*/
+  background: url(header.jpg) no-repeat center center fixed; 
+  /*center of image is always centered*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+  font-size: 3rem ;
+  color: #e2dbdb;
+}
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+.btn-primary {  
+    background-color: #F05F44;  
+    border-color: #F05F44;  
+    --bs-btn-hover-bg: #ee4b08; 
+    --bs-btn-hover-border-color: #ee4b08;
+}
+.btn-primary:hover{
+  border-width: 4px;
+}
+.btn-xl{
+  padding: 1rem 2rem;
+}
+hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;  
+}
+.buffer{
+  height: 10rem;
+}
