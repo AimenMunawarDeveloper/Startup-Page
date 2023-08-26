@@ -1,2 +1,2 @@
 # Startup-Page
-made using CSS an d
+made using HTML, CSS and Boot Strap
